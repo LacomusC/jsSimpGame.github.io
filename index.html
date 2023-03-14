@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+
+    <meta property="og:title" content="" />
+    <meta property="og:type" content="" />
+    <meta property="og:url" content="" />
+    <meta property="og:description" content="" />
+    <meta property="og:image" content="" />
+
+    <link rel="icon" href="" />
+    <link rel="icon" href="#" type="image/svg+xml" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Nunito+Sans&family=Poppins"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;300;400;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+
+    <title>Javascript</title>
+  </head>
+
+  <br class="body">
+    <main>
+
+
+      <div class="container-fluid">
+        <div class="row ">
+          <div class="col-lg-12 ">
+            <div class="col-lg-12 d-flex justify-content-center align-items-center name-container">
+              <p id="names"></p>
+
+            </div>
+            <div class="col-lg-12 d-flex justify-content-center align-items-center">
+              <div class="row">
+                <div class="col">
+                  <button class="button" onclick="addName()">Add Name</button>
+
+                </div>
+                <div class="col">
+                  <button class="button" onclick="spliceNameAdd()">Splice Name Add</button>
+
+                </div>
+                <div class="col">
+                  <button class="button" onclick="spliceNameRemove()">Splice Name Remove</button>
+
+                </div>
+                <div class="col">
+                  <button class="button" onclick="popName()">Pop Name</button>
+
+                </div>
+                <div class="col mb-5">
+                  <button class="button" onclick="sortName()">Sort Name</button>
+
+                </div>
+              </div>
+            </div>
+    
+   
+          </div>
+          
+          <div class="col-lg-12 ">
+            <div class="col-lg-12  d-flex justify-content-center align-items-center random-container">
+              <p>Give a random number</p>
+
+            </div>
+            <div class="col-lg-12  d-flex justify-content-center align-items-center mb-3">
+              <p id="number"></p>
+            </div>
+            <div class="col-lg-12  d-flex justify-content-center align-items-center mb-3">
+              <p>Is it equal to 9?</p>
+            </div>
+            <div class="col-lg-12  d-flex justify-content-center align-items-center mb-3">
+              <p id="equal"></p>
+            </div>
+            <div class="col-lg-12  d-flex justify-content-center align-items-center mb-5">
+              <button class="button" onclick="getNumber()">Get a Random Number</button>
+
+            </div>
+            
+          </div>
+      
+          <div class="col-lg-12 ">
+            <div class="col-lg-12 d-flex justify-content-center align-items-center loop-container">
+              <p>FOR LOOPS</p>
+
+            </div>
+            <div class="col-lg-12 d-flex justify-content-center align-items-center">
+              <p id="loopNumbers"></p>
+              <p id="getLoops" class="mb-3"></p>
+      
+            </div>
+            <div class="col-lg-12 d-flex justify-content-center align-items-center mb-3">
+              <p id="stopLoops"></p>
+
+            </div>
+            <div class="col-lg-12  d-flex justify-content-center align-items-center mb-3">
+              <button class="button" onclick="numLoops()" id="loopButton">Loop the numbers</button>
+
+            </div>
+            <div class="col-lg-12  d-flex justify-content-center align-items-center mb-4">
+              <p  id="loopButtonP"></p>
+
+            </div>
+
+          </div>
+
+          <div class="col-lg-12">
+            <div class="col-lg-12 d-flex justify-content-center align-items-center loop-container">
+              <p id="guessNum">Guess the Random Number</p>
+            </div>
+         
+            <div class="col-lg-12 CN mb-5">
+              <div class="col-12 d-flex justify-content-center align-items-center mb-3 mt-3">
+               <p>Click a number to show the Random Number and Result</p>
+              </div>
+             
+              <div class="col-12 d-flex justify-content-center align-items-center ">
+                <p id="clickedNum"></p>
+              </div>
+            </div>
+
+            
+            <div class="col-lg-12 mb-5">
+              <div class="row">
+              <div class="col d-flex justify-content-center align-items-center">
+                <button onclick="calB(event)" id="calcP" class="GN">0</button>
+              </div>
+              <div class="col d-flex justify-content-center align-items-center">
+                <button onclick="calB(event)" id="calcP" class="GN">1</button>
+              </div>
+              <div class="col d-flex justify-content-center align-items-center">
+                <button onclick="calB(event)" id="calcP" class="GN">2</button>
+              </div>
+              <div class="col d-flex justify-content-center align-items-center">
+                <button onclick="calB(event)" id="calcP" class="GN">3</button>
+              </div>
+              <div class="col d-flex justify-content-center align-items-center">
+                <button onclick="calB(event)" id="calcP" class="GN">4</button>
+              </div>
+              <div class="col d-flex justify-content-center align-items-center">
+                <button onclick="calB(event)" id="calcP" class="GN">5</button>
+              </div>
+              <div class="col d-flex justify-content-center align-items-center">
+                <button onclick="calB(event)" id="calcP" class="GN">6</button>
+              </div>
+              <div class="col d-flex justify-content-center align-items-center">
+                <button onclick="calB(event)" id="calcP" class="GN">7</button>
+              </div>
+              <div class="col d-flex justify-content-center align-items-center">
+                <button onclick="calB(event)" id="calcP" class="GN">8</button>
+              </div>
+              <div class="col d-flex justify-content-center align-items-center">
+                <button onclick="calB(event)" id="calcP" class="GN">9</button>
+              </div>
+              </div>
+              
+            </div>
+
+            <div class="col-lg-12 d-flex justify-content-center align-items-center mb-5">
+              <div class="RN">
+                <p id="randomNum">Random Number: </p>
+              </div>
+            </div>
+            <div class="col-lg-12 d-flex justify-content-center align-items-center mb-5">
+              <div class="R">
+                <p id="result">Result: </p>
+              </div>
+            </div>
+
+
+          </div>
+
+          <div class="container mb-5 ">
+            <div class="toDoContainer col-lg-12 mb-5 ">
+              <div class="row ">
+                <div class="col-lg-12 d-flex justify-content-center align-items-center toDoTitleContainer">
+                  <p id="toDoListTitle">To Do List</p>
+                </div>
+
+                <div class="col-lg-12 d-flex justify-content-center align-items-center addContainer">
+                  <input type="text" id="inputToDo" class="toDoInput " >
+                  <button onclick="toDoButton()" class="toDoButton">Add To List</button>
+                </div>
+                <div class="toDoItemContainer col-lg-12 d-flex justify-content-center align-items-center">
+                  <p id="toDoItem" class="toDoItemClass"></p>
+                </div>
+           
+              </div>
+  
+            </div>
+          </div>
+
+
+
+
+        </div>
+      </div>
+    </main>
+
+    <script src="index.js"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  </body>
+</html>

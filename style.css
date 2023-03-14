@@ -1,0 +1,134 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  /* font-family: "Nunito Sans", sans-serif; */
+}
+
+p {
+  margin: 0 !important;
+}
+
+.button,
+.GN {
+  white-space: nowrap;
+  background: brown;
+  color: beige;
+  padding: 15px 25px;
+  border-radius: 5px;
+  border: none;
+  transition: background 0.25s;
+}
+
+.button:focus {
+  outline: none;
+}
+
+.button:hover {
+  background: rgb(194, 30, 30);
+}
+
+.name-container,
+.random-container,
+.loop-container {
+  background: #1d1d1d;
+  color: #fff;
+  height: 60px;
+  margin-bottom: 3%;
+}
+
+button {
+  padding: 5% 20%;
+}
+
+.CN {
+  background: burlywood;
+  color: black;
+  display: inline-block;
+  height: 100px;
+  border-radius: 4px;
+  border: 2px solid #1d1d1d;
+}
+
+.RN,
+.R {
+  background: burlywood;
+  color: black;
+  border: 2px solid #1d1d1d;
+  width: 900px;
+  height: 100px;
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+}
+
+.RN {
+  padding-left: 1%;
+}
+
+.R {
+  justify-content: center;
+}
+
+#clickedNum,
+#randomNum,
+#result,
+#guessNum {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.toDoInput {
+  outline: none;
+  padding-left: 5px;
+  font-size: 13px;
+  height: 50px;
+  width: 150px;
+}
+
+.toDoButton {
+  height: 50px;
+  width: 150px;
+  white-space: nowrap;
+  padding: 0;
+  background: burlywood;
+  border: none;
+  font-weight: 700;
+  transition: background 0.25s;
+}
+
+.toDoButton:hover {
+  background: rgb(209, 158, 91);
+}
+
+.toDoContainer {
+  background: #1d1d1d;
+  height: 100%;
+  border-radius: 4px;
+}
+
+.toDoItemContainer {
+  margin-top: 2%;
+  text-align: center;
+}
+
+.toDoItemClass {
+  font-size: 20px;
+  font-weight: 700;
+  color: beige;
+}
+
+.toDoTitleContainer {
+  background-color: brown;
+  padding: 1% 0;
+}
+
+#toDoListTitle {
+  font-size: 30px;
+  font-weight: 700;
+  color: #1d1d1d;
+}
+
+.addContainer {
+  margin-top: 3%;
+}
